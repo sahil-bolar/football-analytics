@@ -47,7 +47,6 @@ for (i in 1:100000){
 }
 
 # plot overlaid histograms of frequency distributions
-library(ggplot2)
 df_pre <- data.frame(xx = c(DAL_pre_games_won), yy = rep(c('pre'), each = 100000))
 df_post <- data.frame(xx = c(DAL_post_games_won), yy = rep(c('post'), each = 100000))
 df <- rbind(df_pre, df_post)
